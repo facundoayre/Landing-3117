@@ -61,3 +61,47 @@ header{
     font-weight: 600;
 
 }
+
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+    text-align:center;
+}
+
+.hero-info h1{
+    font-size: 48px;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.hero-info p{
+    font-size: 14px;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+}
+
+.hero-info a{
+    width: 120px;
+    padding: 6px 0px;
+    font-size: 22px;
+    align-self: center;
+  }
+
+.hero-card img{
+    max-width: 500px;
+    max-height: 500px;
+}
